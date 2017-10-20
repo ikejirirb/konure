@@ -5,4 +5,5 @@ gem "dotenv"
 gem "ruboty"
 gem "ruboty-slack_rtm"
 gem "ruboty-snack"
+gem "ruboty-talk"
 
