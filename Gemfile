@@ -4,4 +4,5 @@ source "https://rubygems.org"
 gem "dotenv"
 gem "ruboty"
 gem "ruboty-slack_rtm"
+gem "ruboty-snack"
 
