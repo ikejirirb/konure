@@ -1,2 +1,2 @@
-bot: bundle exec ruboty
+bot: bundle exec ruboty --load loader.rb
 
