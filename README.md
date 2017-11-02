@@ -7,7 +7,7 @@
 ```
 $ git clone
 $ bundle install
-$ bundle exec ruboty --dotenv
+$ bundle exec ruboty -l loader.rb --dotenv
 ```
 
 ## handlerを増やす
