@@ -9,3 +9,7 @@ group :production do
   gem "ruboty-slack_rtm"
   gem "ruboty-snack"
 end
+
+group :development do
+  gem "pry"
+end
