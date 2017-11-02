@@ -1,4 +1,4 @@
-# korune
+# konure
 
 ## コンソールで使う
 
