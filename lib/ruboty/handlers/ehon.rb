@@ -12,7 +12,7 @@ module Ruboty
         created_at = Time.now.getlocal("+09:00")
         updated_at = created_at
 
-        if ehons.find {|ehon| ehon.has_value?(title) }
+        if ehons.empty? || ehons.find {|ehon| ehon.has_value?(title) }
           ehons << {title: title, created_at: created_at, updated_at: updated_at, count: 0}
           message.reply("「#{title}」を追加したよ！")
         else
