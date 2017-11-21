@@ -4,10 +4,10 @@ source "https://rubygems.org"
 gem "dotenv"
 gem "ruboty"
 gem "ruboty-talk"
+gem "ruboty-snack"
 
 group :production do
   gem "ruboty-slack_rtm"
-  gem "ruboty-snack"
 end
 
 group :development do
