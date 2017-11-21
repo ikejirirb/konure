@@ -8,6 +8,7 @@ gem "ruboty-snack"
 
 group :production do
   gem "ruboty-slack_rtm"
+  gem "ruboty-redis"
 end
 
 group :development do

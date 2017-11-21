@@ -38,6 +38,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     rack (2.0.3)
+    redis (4.0.1)
+    redis-namespace (1.6.0)
+      redis (>= 3.0.4)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -57,6 +60,10 @@ GEM
       dotenv
       mem
       slop
+    ruboty-redis (0.0.6)
+      redis
+      redis-namespace
+      ruboty
     ruboty-slack_rtm (2.7.2)
       ruboty (>= 1.1.4)
       slack-api (~> 1.2)
@@ -91,6 +98,7 @@ DEPENDENCIES
   pry
   rspec
   ruboty
+  ruboty-redis
   ruboty-slack_rtm
   ruboty-snack
   ruboty-talk
